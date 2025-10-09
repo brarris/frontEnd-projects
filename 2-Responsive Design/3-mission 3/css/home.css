@@ -1,0 +1,39 @@
+@import url("./global.css");
+
+.home {
+  background-color: #2f3334;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  height: 56px;
+  background-color: #181a1c;
+}
+
+.header-logo {
+  width: 17px;
+  height: 15px;
+}
+
+.navbar {
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+  font-weight: 500;
+  color: white;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.account img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
