@@ -1,3 +1,6 @@
+count = 0;
+
 function increment() {
-  console.log("The button was clicked");
+  count += 1;
+  console.log(count);
 }
