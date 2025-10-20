@@ -7,7 +7,7 @@ console.log(saveEl);
 
 function increment() {
   count += 1;
-  countEl.innerText = count;
+  countEl.textContent = count; // innerText only human readable, not for hidden element, so in these case i'm using textContext
 }
 
 // save feature
@@ -16,6 +16,6 @@ function increment() {
 
 function save() {
   let concatString = count + " - ";
-  saveEl.innerText += concatString;
+  saveEl.textContent += concatString; // innerText only human readable, not for hidden element, so in these case i'm using textContext
   console.log(count);
 }
