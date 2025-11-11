@@ -21,10 +21,12 @@ This project displays the scores for two teams — **Home** and **Guest** — wi
 
 ## 📁 Project Structure
 
+```bash
 /project-folder
 │── index.html # Main HTML structure
 │── index.css # Stylesheet for the scoreboard
 └── index.js # JavaScript logic for score control
+```
 
 ## 🚀 How to Run
 
