@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./assets/index.css" />
+    <title>Basketball Score</title>
+  </head>
+  <body>
+    <section class="card-container">
+      <div id="home-container">
+        <p class="name">HOME</p>
+        <div class="score-container">
+          <p id="num-home"></p>
+        </div>
+        <div class="button-container">
+          <button onclick="addPoints('home', 1)" class="btn">+1</button>
+          <button onclick="addPoints('home', 2)" class="btn">+2</button>
+          <button onclick="addPoints('home', 3)" class="btn">+3</button>
+        </div>
+      </div>
+      <div class="guest-container">
+        <p class="name">GUEST</p>
+        <div class="score-container">
+          <p id="num-guest"></p>
+        </div>
+        <div class="button-container">
+          <button onclick="addPoints('guest', 1)" class="btn">+1</button>
+          <button onclick="addPoints('guest', 2)" class="btn">+2</button>
+          <button onclick="addPoints('guest', 3)" class="btn">+3</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "CursedTimerUlil";
+  src: url("./font/CursedTimerUlil-Aznm.ttf");
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b244a;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: 700;
+  color: #eeee;
+  line-height: 35.89px;
+  letter-spacing: 0%;
+  margin-top: 86px;
+}
+
+.score-container {
+  background-color: #080001;
+  margin: 26px 0;
+}
+
+#num-home {
+  font-family: "CursedTimerUlil";
+  font-weight: 400;
+  font-size: 90px;
+  color: #f94f6d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0%;
+  line-height: 100px;
+  padding-top: 15px;
+  /* padding: 15px 20px; */
+}
+
+#num-guest {
+  font-family: "CursedTimerUlil";
+  font-weight: 400;
+  font-size: 90px;
+  color: #f94f6d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0%;
+  line-height: 100px;
+  padding-top: 15px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-family: "CursedTimerUlil";
+  background: transparent;
+  color: #9aabd8;
+  border-radius: 5px;
+  border: 2px solid #9aabd8;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  padding: 9px;
+  cursor: pointer;
+}
