@@ -22,10 +22,15 @@ This project displays the scores for two teams — **Home** and **Guest** — wi
 ## 📁 Project Structure
 
 ```bash
-/project-folder
+6-basketballScoreboard/
+|  │── assets/
+|  │   ├── font/
+|  │   │   └── CursedTimerUlil-Aznm.ttf
+|  │   └── image.png
+|  │── index.css # Stylesheet for the scoreboard
+|  │── index.js # JavaScript logic for score control
 │── index.html # Main HTML structure
-│── index.css # Stylesheet for the scoreboard
-└── index.js # JavaScript logic for score control
+└── README.md
 ```
 
 ## 🚀 How to Run
